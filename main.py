@@ -19,11 +19,49 @@ class StockPortfolioDashboard:
         # Initialize session state for portfolios
         if 'portfolios' not in st.session_state:
             st.session_state.portfolios = {
-                'Tech Innovators': [
-                    'AAPL', 'MSFT', 'NVDA', 'GOOGL', 'CRM', 'ADBE', 'INTC'
+                'Value Momentum': [
+    "M&M.NS",        # Mahindra and Mahindra Ltd
+    "KARURVYSYA.NS", # Karur Vysya Bank
+    "NTPC.NS",       # NTPC Ltd
+    "MOTILALOFS.NS", # Motilal Oswal Financial Services
+    "ZYDUSLIFE.NS",  # Zydus Lifesciences
+    "NATIONALUM.NS", # National Aluminium Co
+    "PFC.NS",        # Power Finance Corporation Ltd
+    "APARINDS.NS",   # Apar Industries
+    "OIL.NS",        # Oil India
+    "PRESTIGE.NS",   # Prestige Estate Projects
+    "INDUSTOWER.NS", # Indus Towers
+    "CANBK.NS",      # Canara Bank
+    "SAIL.NS",       # Steel Authority of India
+    "HAL.NS",        # Hindustan Aeronautics
+    "ENGINERSIN.NS", # Engineers India
+    "KIRLOSENG.NS"   # Kirloskar Oil Engines
                 ],
-                'Healthcare Disruptors': [
-                    'UNH', 'JNJ', 'MRNA', 'GILD', 'ISRG', 'BIIB', 'ABC'
+                'Green Energy': [
+    "SHAKTIPUMP.NS",    # Shakti Pumps (India) Limited
+    "PITTIENG.NS",      # Pitti Engineering Limited
+    "TRITURBINE.NS",    # Triveni Turbine Limited
+    "SKIPPER.NS",       # Skipper Limited
+    "GANECOS.NS",       # Ganesha Ecosphere Limited
+    "TDPOWERSYS.NS",    # TD Power Systems Limited
+    "TECHNOE.NS",       # Techno Electric & Engineering Company Limited
+    "FIEMIND.NS",       # Fiem Industries Limited
+    "INOXWIND.NS",      # Inox Wind Limited
+    "BBL.NS",  # Bharat Bijlee Limited
+    "PRAJIND.NS",       # Praj Industries Limited
+    "KSB.NS",           # KSB Limited
+    "IONEXCHANG.NS",    # Ion Exchange (India) Limited
+    "PREMIERENE.NS",  # Premier Energies Limited
+    "KPITTECH.NS",      # KPIT Technologies Limited
+    "SBCL.NS",          # Shivalik Bimetal Controls Limited
+    "HPL.NS",           # HPL Electric & Power Limited
+    "GENUSPOWER.NS",    # Genus Power Infrastructures Limited
+    "EXIDEIND.NS",      # Exide Industries Limited
+    "KALPATPOWR.NS",    # Kalpataru Projects International Limited
+    "RECLTD.NS",        # REC Limited
+    "POCL.NS",          # Pondy Oxides and Chemicals Limited
+    "SWELECTES.NS",     # Swelect Energy Systems Limited
+    "STERLING.NS"       # Sterling and Wilson Renewable Energy Limited
                 ]
             }
         
